@@ -15,38 +15,92 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.8);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   word-spacing: 2px;
 }
 
 .startingOne {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg");
 }
 
 .startingTwo {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-wood.jpg");
 }
 .startingThree {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-3.jpg");
 }
 .startingFour {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-4.jpg");
 }
 .startingFive {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-5.jpg");
 }
 .startingSix {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-6.jpg");
 }
 .startingSeven {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-7.jpg");
 }
 .startingEight {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-8.jpg");
 }
 .startingNine {
+  background: url("https://content.iconworldoftile.com/icon/content/slider/glazed-porcelain-tiles-60x120cm-metallic.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   background: url("https://content.iconworldoftile.com/icon/content/slider/slider-9.jpg");
+}
+.width-less {
+  width: 100%;
+}
+
+.discoverOne {
+  background: url("https://content.iconworldoftile.com/icon//images/home_collection/endless_marble_look_porcelain_tile.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.discoverTwo {
+  background: url("https://content.iconworldoftile.com/icon//images/home_collection/canvas_collection.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.discoverThree {
+  background: url("https://content.iconworldoftile.com/icon//images/home_collection/wooden-plank-porcelain-tile-manufacturer.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
 }

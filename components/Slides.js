@@ -6,6 +6,7 @@ const Slides = ({ bgImage, lineOne, lineTwo }) => {
       className={`starting font-semibold ${bgImage} relative h-screen text-white`}
     >
       <div
+        data-aos="fade-up"
         style={{
           left: "50%",
           transform: "translateX(-50%)",

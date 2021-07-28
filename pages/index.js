@@ -7,11 +7,13 @@ import PassionateToBringbeautifulTiles from "../components/PassionateToBringbeau
 import Aos from "aos";
 import "aos/dist/aos.css";
 import FirstPart from "../components/FirstPart";
+import Footer from "../components/Footer";
+import Images from "../components/Images";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 1000 });
   }, []);
   useEffect(() => {
     setLoading(true);
@@ -47,9 +49,22 @@ export default function Home() {
               },
             }}
           >
-            <Header />
-            <FirstPart />
-            <PassionateToBringbeautifulTiles />
+            <div>
+              <Header />
+              <FirstPart />
+              <PassionateToBringbeautifulTiles />
+              <h1
+                data-aos="fade-up"
+                className="text-center font-bold text-3xl mt-6 mb-3 "
+              >
+                Discover our Creations
+              </h1>
+              <h1 data-aos="fade-up" className="text-center mb-6">
+                Elegance, Luxury, Glamour and Sensuality
+              </h1>
+              <Images />
+            </div>
+            <Footer />
           </motion.div>
         </div>
       )}

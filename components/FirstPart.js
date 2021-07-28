@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import Slides from "./Slides";
 const SlideOne = () => {
   return (
-    <div data-aos="fade-right">
+    <div>
       <Carousel
         autoPlay
         infiniteLoop
