@@ -26,7 +26,9 @@ const Footer = () => {
                 "https://content.iconworldoftile.com/icon/images/logo_white.png"
               }
             />
-            <p className={"text-xl font-semibold mt-4 py-2"}>Connect with Us</p>
+            <p className={"text-xl font-semibold mt-4 py-2"}>
+              Connect with Us:
+            </p>
             <div
               className={"mt-8 pb-16 text-black flex items-center space-x-2"}
             >
