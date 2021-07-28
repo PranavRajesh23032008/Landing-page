@@ -3,15 +3,21 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Loading from "../components/Loading";
+import PassionateToBringbeautifulTiles from "../components/PassionateToBringbeautifulTiles";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import FirstPart from "../components/FirstPart";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
-
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2500);
+    }, 1000);
   }, []);
   return (
     <div>
@@ -28,21 +34,24 @@ export default function Home() {
       {loading ? (
         <Loading />
       ) : (
-        <motion.div
-          initial="initial"
-          animate="animate"
-          variants={{
-            initial: {
-              opacity: 0,
-            },
-            animate: {
-              opacity: 2,
-            },
-          }}
-        >
-          <Header />
-          <div className={"starting h-screen"}></div>
-        </motion.div>
+        <div className={"overflow-x-hidden"}>
+          <motion.div
+            initial="initial"
+            animate="animate"
+            variants={{
+              initial: {
+                opacity: 0,
+              },
+              animate: {
+                opacity: 2,
+              },
+            }}
+          >
+            <Header />
+            <FirstPart />
+            <PassionateToBringbeautifulTiles />
+          </motion.div>
+        </div>
       )}
     </div>
   );

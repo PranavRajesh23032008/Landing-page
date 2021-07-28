@@ -4,6 +4,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 const Header = () => {
   return (
     <div
+      data-aos="fade-left"
       className={
         "bg-black text-white flex items-center py-6 lg:px-14 px-5 sticky top-0 z-50"
       }
@@ -15,35 +16,35 @@ const Header = () => {
       <div className={" items-center mx-auto space-x-12 lg:inline-flex hidden"}>
         <p
           className={
-            "cursor-pointer hover:font-semibold transition duration-150 transform hover:underline p-2 hover:scale-150"
+            "cursor-pointer hover:font-semibold transition duration-150 transform p-2 hover:scale-150"
           }
         >
           About ICON{" "}
         </p>
         <p
           className={
-            "cursor-pointer hover:font-semibold transition  duration-150 transform hover:underline p-2 hover:scale-150"
+            "cursor-pointer hover:font-semibold transition  duration-150 transform p-2 hover:scale-150"
           }
         >
           Product Book
         </p>
         <p
           className={
-            "cursor-pointer hover:font-semibold transition duration-150 transform hover:underline p-2 hover:scale-150"
+            "cursor-pointer hover:font-semibold transition duration-150 transform p-2 hover:scale-150"
           }
         >
           Market
         </p>
         <p
           className={
-            "cursor-pointer hover:font-semibold transition duration-150 transform hover:underline p-2 hover:scale-150"
+            "cursor-pointer hover:font-semibold transition duration-150 transform p-2 hover:scale-150"
           }
         >
           Happy to Help{" "}
         </p>
         <p
           className={
-            "cursor-pointer hover:font-semibold transition duration-150 transform hover:underline p-2 hover:scale-150"
+            "cursor-pointer hover:font-semibold transition duration-150 transform hover:scale-150 p-2"
           }
         >
           Reach Us
