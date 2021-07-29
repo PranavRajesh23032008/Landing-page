@@ -9,17 +9,20 @@ import "aos/dist/aos.css";
 import FirstPart from "../components/FirstPart";
 import Footer from "../components/Footer";
 import Images from "../components/Images";
+import ExampleSlides from "../components/ExampleSlides";
+import Global from "../components/Global";
+import Tiles from "../components/Tiles";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1500 });
   }, []);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
   return (
     <div>
@@ -53,16 +56,21 @@ export default function Home() {
               <Header />
               <FirstPart />
               <PassionateToBringbeautifulTiles />
-              <h1
-                data-aos="fade-up"
-                className="text-center font-bold text-3xl mt-6 mb-3 "
-              >
-                Discover our Creations
-              </h1>
-              <h1 data-aos="fade-up" className="text-center mb-6">
-                Elegance, Luxury, Glamour and Sensuality
-              </h1>
+              <ExampleSlides />
+              <div className={"my-6"}>
+                <h1
+                  data-aos="fade-up"
+                  className="text-center font-bold text-3xl mb-1 "
+                >
+                  Discover our Creations
+                </h1>
+                <h1 data-aos="fade-up" className="text-center mb-5">
+                  Elegance, Luxury, Glamour and Sensuality
+                </h1>
+              </div>
               <Images />
+              <Tiles />
+              <Global />
             </div>
             <Footer />
           </motion.div>

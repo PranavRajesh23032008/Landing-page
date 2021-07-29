@@ -104,3 +104,52 @@ body::-webkit-scrollbar-thumb {
   background-size: cover !important;
   -webkit-background-size: cover !important;
 }
+
+.previewOne {
+  background: url("https://content.iconworldoftile.com/icon/content/look/look_6128_stone-look-porcelain-stoneware-tiles.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewTwo {
+  background: url("https://content.iconworldoftile.com/icon/content/look/concrete-effect-porcelain-floor-tile.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewThree {
+  background: url("https://content.iconworldoftile.com/icon/content/look/wooden-look-porcelain-stoneware-tiles.jpg")
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewFour {
+  background: url(https://content.iconworldoftile.com/icon/content/look/marble-look-porcelain-tile.jpg)
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewFive {
+  background: url(https://content.iconworldoftile.com/icon/content/look/full-body-wall-and-floor-tile-manufacturer.jpg)
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewSix {
+  background: url(https://content.iconworldoftile.com/icon/content/look/metal-look-porcelain-floor-tiles-and-wall-tiles.jpg)
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewSeven {
+  background: url(https://content.iconworldoftile.com/icon/content/look/bathroom-ceramic-wall-tiles-manufacturer.jpg)
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+.previewEigth {
+  background: url(https://content.iconworldoftile.com/icon/content/look/kitchen-ceramic-wall-tiles-manufacturer.jpg)
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}

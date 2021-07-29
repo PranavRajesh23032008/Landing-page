@@ -1,7 +1,11 @@
+import Zoom from "react-reveal/Zoom";
 function Images() {
   return (
     <div>
-      <div className={"discoverOne lg:h-screen h-[50vh] md:h-[75vh] relative"}>
+      <div
+        data-aos={"fade-in"}
+        className={"discoverOne lg:h-screen h-[50vh] md:h-[75vh] relative"}
+      >
         <div
           data-aos="fade-up"
           className={"absolute lg:bottom bottom-32 starting mx-auto w-full"}
@@ -14,7 +18,10 @@ function Images() {
           </h1>
         </div>
       </div>
-      <div className={"discoverTwo lg:h-screen h-[50vh] md:h-[75vh] relative"}>
+      <div
+        data-aos={"fade-in"}
+        className={"discoverTwo lg:h-screen h-[50vh] md:h-[75vh] relative"}
+      >
         <div
           data-aos="fade-up"
           className={"absolute lg:bottom bottom-32 starting mx-auto w-full"}
@@ -28,6 +35,7 @@ function Images() {
         </div>
       </div>
       <div
+        data-aos={"fade-in"}
         className={"discoverThree lg:h-screen h-[50vh] md:h-[75vh] relative"}
       >
         <div

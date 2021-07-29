@@ -1,6 +1,7 @@
 const PassionateToBringbeautifulTiles = () => {
   return (
     <div
+      data-aos={"fade-in"}
       className={" w-5/6 p-7 mx-auto "}
       name={"PassionateToBringbeautifulTiles"}
     >

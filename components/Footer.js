@@ -122,7 +122,7 @@ const Footer = () => {
       >
         <p>All rights reserved © 2021 ICON Group</p>
         <p className={"flex-1"} />
-        <p className={"mr-1"}>
+        <p className={""}>
           <a
             className={
               "hover:underline hover:text-gray-700  text-xs md:text-md"
